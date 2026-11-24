@@ -1,0 +1,11 @@
+// Query 1: Find the Impossible Travel
+SigninLogs
+| where UserPrincipalName == "daniel.reeves@claudora.io"
+| summarize Locations = make_set(Location) by UserPrincipalName
+| where array_length(Locations) > 1
+
+// Query 2: Check what the attacker did from the Lagos IP
+SigninLogs
+| where IPAddress == "105.112.33.89"
+| project TimeGenerated, Location, ClientAppUsed
+| sort by TimeGenerated asc

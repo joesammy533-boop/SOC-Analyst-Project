@@ -1,0 +1,5 @@
+TimeGenerated,UserPrincipalName,IPAddress,Location,ResultType,ResultDescription,ClientAppUsed,
+2023-10-23T08:52:00Z,daniel.reeves@claudora.io,82.14.55.10,London,GB,0,Success,Mobile Apps and Desktop clients
+2023-10-23T08:55:00Z,daniel.reeves@claudora.io,105.112.33.89,Lagos,NG,0,Success,Mobile Apps and Desktop clients
+2023-10-23T08:58:00Z,daniel.reeves@claudora.io,105.112.33.89,Lagos,NG,0,Success,Exchange ActiveSync
+2023-10-23T09:05:00Z,daniel.reeves@claudora.io,105.112.33.89,Lagos,NG,0,Success,Office 365 SharePoint Online
